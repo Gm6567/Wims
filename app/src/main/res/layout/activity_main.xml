@@ -1,0 +1,99 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<LinearLayout xmlns:android = "http://schemas.android.com/apk/res/android"
+    android:layout_width = "fill_parent"
+    android:layout_height = "fill_parent"
+    android:orientation = "vertical" >
+
+
+    <TextView
+        android:id="@+id/titre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="                Wims      "
+        android:layout_alignParentTop="true"
+        android:textColor="#ff81BEF7"
+        android:layout_centerHorizontal="true"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/soustexte"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vous pouvez désormais envoyer votre position ou géolocaliser un téléphone disposant de l'application "
+        android:layout_alignParentTop="true"
+        android:textColor="#ff000000"
+        android:layout_centerHorizontal="true"
+        android:textSize="13dp" />
+
+    <Button
+        android:id = "@+id/boutonenvoi"
+        android:layout_width = "fill_parent"
+        android:layout_height = "wrap_content"
+        android:text = "Envoyer votre position"/>
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/champsnumero"
+        android:hint="Entrez le numéro du destinataire"
+        android:phoneNumber="true"
+        android:textColorHint="@color/abc_primary_text_material_dark"
+        android:layout_below="@+id/imageButton"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id = "@+id/boutonrecup"
+        android:layout_width = "fill_parent"
+        android:layout_height = "wrap_content"
+        android:text = "Géolocaliser"/>
+
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/champscode"
+        android:hint="Entrez le code de géolocalisation"
+        android:phoneNumber="true"
+        android:textColorHint="@color/abc_primary_text_material_dark"
+        android:layout_below="@+id/imageButton"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/champsnumero2"
+        android:hint="Entrez le numéro à localiser"
+        android:phoneNumber="true"
+        android:textColorHint="@color/abc_primary_text_material_dark"
+        android:layout_below="@+id/imageButton"
+        android:layout_centerHorizontal="true" />
+
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/champslat"
+        android:hint="Champs reservé pour la latitude"
+        android:phoneNumber="true"
+        android:textColorHint="@color/abc_primary_text_material_dark"
+        android:layout_below="@+id/imageButton"
+        android:layout_centerHorizontal="true" />
+
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/champslon"
+        android:hint="Champs reservé pour la longitude"
+        android:phoneNumber="true"
+        android:textColorHint="@color/abc_primary_text_material_dark"
+        android:layout_below="@+id/imageButton"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id = "@+id/boutoncarte"
+        android:layout_width = "fill_parent"
+        android:layout_height = "wrap_content"
+        android:text = "Afficher sur une carte"/>
+
+</LinearLayout>
